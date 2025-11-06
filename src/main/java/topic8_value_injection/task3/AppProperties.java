@@ -7,7 +7,7 @@ import java.util.List;
 
 @Component
 public class AppProperties {
-    @Value("${app.supproted.languages}")
+    @Value("${app.supported.languages}")
     private String[] languages;
     @Value("#{'${app.active.profiles}'.split(',')}")
     private List<String> profiles;
